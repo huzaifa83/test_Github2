@@ -16,6 +16,11 @@ class ViewController: UIViewController {
     print("hello")
     }
 
-
+    @IBAction func btnPress(_ sender: UIButton) {
+        
+        let vc = storyboard?.instantiateViewController(withIdentifier: "ViewController2") as! ViewController2
+        present(vc, animated: true, completion: nil)
+    }
+    
 }
 
