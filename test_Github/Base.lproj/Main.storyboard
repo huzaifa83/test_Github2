@@ -22,12 +22,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1w5-Yq-hnC">
+                                <rect key="frame" x="173.5" y="558.5" width="67" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="rPd-bT-YBJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8Fj-zv-Vcz"/>
+                            <constraint firstItem="1w5-Yq-hnC" firstAttribute="centerX" secondItem="rPd-bT-YBJ" secondAttribute="centerX" id="dbX-xL-klS"/>
                             <constraint firstItem="rPd-bT-YBJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="w7D-VB-fi0"/>
+                            <constraint firstItem="1w5-Yq-hnC" firstAttribute="top" secondItem="rPd-bT-YBJ" secondAttribute="bottom" constant="100" id="wIE-Q9-XIH"/>
                         </constraints>
                     </view>
                 </viewController>
