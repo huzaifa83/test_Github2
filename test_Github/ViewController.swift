@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     
     print("hello")
+        print("How are you")
     }
 
     @IBAction func btnPress(_ sender: UIButton) {
