@@ -13,7 +13,7 @@ class ViewController2: UIViewController {
         super.viewDidLoad()
         
         
-        print("Mithilesh kia bataya? ")
+        print("Mithilesh kia batay? ")
         // Do any additional setup after loading the view.
     }
     
